@@ -15,7 +15,7 @@ main {
   flex: 1;
 }
 
-.btn-primary{
+.btn-primary {
   background-color: #f0c040;
   color: #000000;
 }
@@ -50,4 +50,8 @@ main {
 
 .img-tnumbnail {
   height: 80px;
+}
+
+.small-container {
+  max-width: 600px;
 }
