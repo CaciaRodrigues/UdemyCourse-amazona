@@ -1,7 +1,7 @@
-import React, { useContext } from 'react';
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
+import React, { useContext } from 'react';
 import 'react-toastify/dist/ReactToastify.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 import Navbar from 'react-bootstrap/Navbar';
@@ -9,7 +9,6 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
 import { LinkContainer } from 'react-router-bootstrap';
-import { Link } from 'react-router-dom';
 import Badge from 'react-bootstrap/Badge';
 import { Store } from './Store';
 import CartScreen from './screens/CartScreen';
